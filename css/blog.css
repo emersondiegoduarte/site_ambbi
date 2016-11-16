@@ -1,0 +1,156 @@
+section.blog-list {
+    padding:0; margin:0;
+}
+section.blog-single {
+    padding:50px 0;
+}
+
+/* Blog Individual Item Styling */
+
+.blog-article {
+    width:100%;
+    display:block;
+    text-align:center;
+    padding:60px 0 55px;
+    border-bottom:1px solid #e5e8eb;
+}
+.blog-article:last-child {
+    border-bottom:0;
+}
+.blog-article > a {
+    display:block;
+    width:100%;
+    height:100%;
+}
+.blog-article:hover {
+    background:#232526;
+}
+.blog-article:hover h1 {
+    color:white;
+}
+.blog-article:hover p {
+    color:#838a90;
+}
+
+
+/* Blog Title in Header */
+
+.blog header .title {
+    text-align:center;
+    color:white;
+    height:30px;
+    position:relative;
+    top:-48px;
+    font:24px "Montserrat",sans-serif;
+    text-transform:uppercase;
+}
+
+
+/* Single Page Styling */
+
+.blog-image img { width:100%; height:350px; background:#dde0e1; }
+.blog-image {margin-bottom:20px;}
+.blog-single .title { border-bottom:1px solid #e5e8eb; padding:20px; max-width:600px; margin:0 auto 35px; }
+
+.blog-post {
+    border-bottom:1px solid #e5e8eb; padding-bottom:25px; padding-top:1px;
+}
+
+
+/*Share*/
+
+.share {
+    font-family:"Montserrat",sans-serif;
+    text-transform:uppercase;
+    font-size:16px !important;
+    padding:12px 0 15px;
+}
+.share h5 {
+    display:inline-block;
+    margin-right:10px;
+}
+.share a {
+    margin-right:7px;
+    color:#0e0f10;
+}
+.share a:hover {
+    color:#595b5e;
+}
+
+
+/*Comments*/
+
+.comments {
+    background:#f5f6f6;
+    border-radius:3px;
+    padding:29px 15px;
+}
+.comment-level-1 .datereply {
+    margin-bottom:30px;
+    padding-bottom:30px;
+    border-bottom:1px solid #edeff0;
+}
+.datereply a {
+    margin-left:10px;
+    display:inline-block;
+}
+.comment-level-2 {
+    padding-left:35px;
+}
+.person-image img {
+    width:100%;
+    height:auto;
+    background:#eaeaea;
+}
+.commentcount {
+    font-family:"Montserrat",sans-serif;
+    text-transform:uppercase;
+    font-size:16px !important;
+    padding:0 10px 10px 15px;
+    color:#0e0f10;
+}
+p.name {
+    font-size:16px;
+    color:#212930;
+}
+
+
+/* Leave a Reply */
+.reply {
+    background:#efefef;
+    border-radius:3px;
+    padding:29px 15px;
+    margin-top:-35px;
+}
+.reply2 {
+    margin-top:-15px;
+    margin-bottom:21px;
+}
+.b_btn {
+    border:0;
+}
+.commentform input, .commentform textarea {
+    width:100%;
+    display:block;
+    border:0;
+    padding:11px;
+    background:#f7f7f7;
+    border-radius:5px;
+}
+.commentform textarea {
+    height:80px;
+}
+.commentform input {
+    margin-bottom:15px;
+}
+.sendbutton {
+    margin-top:15px;
+}
+
+/*Responsive*/
+
+@media all and (max-width:767px) {
+.blog-article {
+    padding:30px 0 20px;
+}
+}
